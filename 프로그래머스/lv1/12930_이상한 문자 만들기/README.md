@@ -1,4 +1,4 @@
-# [Lv. 1] [이상만 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930)
+# [Lv. 1] [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930)
 
 
 ### 문제 설명
