@@ -1,18 +1,19 @@
 num = int(input())
-for i in range(num):
-    stack = []
-    a=input()
-    for j in a:
-        if j == '(':
-            stack.append(j)
-        elif j == ')':
-            if stack:
-                stack.pop()
-            else: 
+for n in range(num):
+    ps = input()
+    ps_list = list()
+    
+    for c in ps:
+        if c == "(":
+            ps_list.append(c)
+        elif c== ")":
+            if ps_list:
+                ps_list.pop()
+            else:
                 print("NO")
                 break
-    else: 
-        if not stack: 
-            print("YES")
-        else: 
+    else:
+        if ps_list:
             print("NO")
+        else:
+            print("YES")
